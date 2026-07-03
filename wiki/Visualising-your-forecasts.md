@@ -1,0 +1,1 @@
+Once a submitted has passed all the validation checks, it is ready to be integrated ("merged") into the hub and included in the visualisation and ensemble. You will receive a link in the PR request that you can use to check the forecast.

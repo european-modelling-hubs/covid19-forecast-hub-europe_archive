@@ -1,0 +1,7 @@
+New forecast data has to be submitted using pull requests from a forked version of this repository. This will trigger the [validation checks](https://github.com/epiforecasts/covid19-forecast-hub-europe/wiki/Check-submission) which we put in place to ensure a uniform format of files.
+1. [Fork](https://help.github.com/en/github/getting-started-with-github/fork-a-repo) the epiforecasts/covid19-forecast-hub-europe repository using the  **Fork** button in the top right corner.
+2. Commit your forecasts/changes to your forked respository via the usual commands in the command line.
+3. [Submit a PR](https://help.github.com/en/enterprise/2.16/user/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork) to the master branch of the epiforecasts/covid-forecast-hub-europe repo.
+  - Please use your team name and submission date as the title of the PR
+
+This submission process can be automated using the [GitHub CLI](https://cli.github.com/) interface with `gh pr create` (after authenticating using `gh auth login`). An example of this is the [submission script](https://github.com/epiforecasts/europe-covid-forecast/blob/master/submissions/submit.sh) used by the Epiforecasts team.
