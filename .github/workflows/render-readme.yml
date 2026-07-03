@@ -1,9 +1,10 @@
 on:
+  workflow_dispatch:
   # schedule:
   #   - cron: "15 23 * * 4"
-  push:
-    paths:
-      - README.Rmd
+  # push:
+  #   paths:
+  #     - README.Rmd
 
 name: Render README
 
